@@ -7,7 +7,7 @@ namespace Garage
         public double FuelCapacity { get; set; }
         public override void Drive()
         {
-            Console.WriteLine("The Yellow Ram is growling. Grrrr!");
+            Console.WriteLine($"The {MainColor} Ram is growling. Grrrr!");
         } 
         public void RefuelTank()
         {

@@ -7,7 +7,7 @@ namespace Garage
         public double BatteryKWh { get; set; }
         public override void Drive()
         {
-            Console.WriteLine("The Blue Zero is flying. Shhhhh!");
+            Console.WriteLine($"The {MainColor} Zero is flying. Shhhhh!");
         }        
         public void ChargeBattery()
         {

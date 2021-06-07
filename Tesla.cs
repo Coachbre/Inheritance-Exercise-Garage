@@ -8,7 +8,7 @@ namespace Garage
 
         public override void Drive()
         {
-            Console.WriteLine("The Green Tesla is cruising. *Silence*");
+            Console.WriteLine($"The {MainColor} Tesla is cruising. *Silence*");
         } 
         public void ChargeBattery()
         {
