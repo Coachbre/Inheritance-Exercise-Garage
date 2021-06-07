@@ -1,11 +1,14 @@
+using System;
+
 namespace Garage
 {
-    public class Zero  // Electric motorcycle
+    public class Zero : Vehicle // Electric motorcycle
     {
         public double BatteryKWh { get; set; }
-        public string MainColor { get; set; }
-        public int MaximumOccupancy { get; set; }
-
+        public override void Drive()
+        {
+            Console.WriteLine("The Blue Zero is flying. Shhhhh!");
+        }        
         public void ChargeBattery()
         {
             // method definition omitted

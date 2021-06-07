@@ -5,7 +5,6 @@ namespace Garage
     public class Cessna : Vehicle
     {
         public double FuelCapacity { get; set; }
-
         public void RefuelTank()
         {
             // method definition omitted
@@ -13,7 +12,7 @@ namespace Garage
 
         public override void Drive()
         {
-            Console.WriteLine("Zoooooom!");
+            Console.WriteLine("The Red Cessna is driving. Zoooooom!");
         }
     }
 }
