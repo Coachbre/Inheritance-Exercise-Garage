@@ -23,17 +23,28 @@ namespace Garage
                 MainColor = "red",
                 MaximumOccupancy = 3,
             };
-            
+
             Ram idk3000 = new Ram()
              {
                 MainColor = "blue",
                 MaximumOccupancy = 4,
             };
 
-            fxs.Drive(); 
+            fxs.Drive();
+            fxs.Turn();
+            fxs.Stop();
+
             modelS.Drive();
+            modelS.Turn();
+            modelS.Stop();
+
             mx410.Drive();
+            mx410.Turn();
+            mx410.Stop();
+
             idk3000.Drive();
+            idk3000.Turn();
+            idk3000.Stop();
         }
     }
 }
