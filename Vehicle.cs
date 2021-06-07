@@ -12,12 +12,12 @@ namespace Garage
             Console.WriteLine("Vrooom!");
         }
 
-        public void Turn()
+        public virtual void Turn()
         {
             Console.WriteLine("The vehicle makes very wide turns.");
         }
 
-        public void Stop()
+        public virtual void Stop()
         {
             Console.WriteLine("The vehicle stops abruptly.");
         }

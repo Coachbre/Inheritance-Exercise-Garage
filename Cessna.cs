@@ -14,5 +14,15 @@ namespace Garage
         {
             Console.WriteLine($"The {MainColor} Cessna is driving. Zoooooom!");
         }
+
+         public override void Turn()
+        {
+            Console.WriteLine($"The {MainColor} Cessna turns right for no reason!");
+        }
+
+          public override void Stop()
+        {
+            Console.WriteLine($"The {MainColor} Cessna rolls to a stop on the runway. Oh no!");
+        }
     }
 }
