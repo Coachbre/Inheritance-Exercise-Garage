@@ -31,19 +31,19 @@ namespace Garage
             };
 
             fxs.Drive();
-            fxs.Turn();
+            //fxs.Turn();
             fxs.Stop();
 
             modelS.Drive();
-            modelS.Turn();
+            //modelS.Turn();
             modelS.Stop();
 
             mx410.Drive();
-            mx410.Turn();
+            mx410.Turn("right");
             mx410.Stop();
 
             idk3000.Drive();
-            idk3000.Turn();
+            //idk3000.Turn();
             idk3000.Stop();
         }
     }
